@@ -1,0 +1,36 @@
+{
+  "name": "wechat-offcial-accounts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "upload": "expect ../upload.expect",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.6.6",
+    "vue-jsonp": "^0.1.8",
+    "vue-layer": "^0.9.10",
+    "vue-router": "^3.0.1",
+    "vue-wechat-title": "^2.0.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
